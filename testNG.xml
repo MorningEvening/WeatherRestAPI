@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WeatherAPI">
+    <test name="Tests">
+        <groups>
+            <run>
+                <include name="CityName" ></include>
+                <include name="Coordinate" ></include>
+                <include name="Zipcode" ></include>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.rest.testcases.WeatherAPITest"/>
+        </classes>
+    </test>
+</suite>
